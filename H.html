@@ -1,0 +1,41 @@
+<head>
+<script src="J.js"></script>
+<link rel="stylesheet" href="C.css"></head>
+<body>
+<div>
+    <div class="heading">
+       <center><h1><b>My Day</b></h1>
+       <p id="date"></p></center>
+       <script src="J.js"></script>
+    </div>
+
+    
+<!-- List items -->
+<h2 class = "heading"> <b>Tasks</b> </h2>
+<div id = "items"></div>
+<br>
+<div class="btn">
+         <button id="btn2" onclick="del()">
+        Done
+    </button>
+</div>
+<br>
+<div id = "completed" class = "heading"><h2><b>Completed</b></h2></div>
+<!-- Add list items -->
+    <div class = "footer">
+	<hr>
+        <div>
+            <input id = "myInput" type="text" placeholder="+   Add a task" style="width: 1350px;height: 30px">
+        </div>
+<br>
+	  <div>
+  <label for="Due date">Due date: </label>
+  <input type="date" id="due" name="due">
+  <input type="submit" id = "submit" onclick = "func()">
+	</div>   
+    </div>
+
+</div>
+<script src="J.js"></script>
+</body>
+</html>

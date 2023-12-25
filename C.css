@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1527254432336-72d0c3ad1942?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8fA%3D%3D");
+    background-size: 1383px 750px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.2;    
+    background-repeat: no-repeat;
+}
+
+.heading {
+   color: white;
+}
+.comp{
+text-decoration: line-through
+}
+.footer{
+    color: white;
+    bottom: 30px;
+    position: fixed;
+}
+.btn{
+    color: white;
+}

@@ -1,7 +1,7 @@
 # To-Do-List
 
 ## Requirements
-- HTMl
+- HTML
 - CSS
 - JS
 
